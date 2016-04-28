@@ -1,0 +1,1 @@
+cmd_/home/eduardo/bs/proj1/sample_module/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/eduardo/bs/proj1/sample_module/hello.ko /home/eduardo/bs/proj1/sample_module/hello.o /home/eduardo/bs/proj1/sample_module/hello.mod.o

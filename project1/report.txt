@@ -1,0 +1,88 @@
+Jack Wampler
+Eduardo Ramirez
+
+
+Report
+
+● How does the array size affect the cache miss rate? Why?
+● What is the relationship between the miss rate and the sizes of L1 and L2 caches?
+● How does the data size affect the execution time? Is it linear? Why or why not?
+● How do the frequency and the cache misses affect the execution time? Why?
+
+
+1000
+128
+1024*1024
+L1 Access: 187275298
+L1 Miss: 13443197
+L2 Access: 34460652
+L2 Miss: 11938797
+cycle count: 2240689980
+Exe_time: 2492980 us at 900000
+
+
+1000
+128
+1024*1024
+L1 Access: 188538999
+L1 Miss: 13153655
+L2 Access: 34106723
+L2 Miss: 11523932
+cycle count: 2187982844
+Exe_time: 2432467 us at 900000
+
+
+1000
+128
+8*8
+L1 Access: 179417753
+L1 Miss: 12850642
+L2 Access: 31127245
+L2 Miss: 11442379
+cycle count: 2112574972
+Exe_time: 2348547 us at 900000
+
+
+1000
+128
+8*512
+L1 Access: 316476144
+L1 Miss: 15650894
+L2 Access: 42081552
+L2 Miss: 12214028
+cycle count: 2821325434
+Exe_time: 3136084 us at 900000
+
+
+1000
+128
+8*512
+L1 Access: 333026646
+L1 Miss: 15948579
+L2 Access: 39471745
+L2 Miss: 12034124
+cycle count: 2828482820
+Exe_time: 3147386 us at 900000
+
+
+1000
+128
+256*1024
+Measurement start.
+L1 Access: 171472740
+L1 Miss: 13190949
+L2 Access: 35480204
+L2 Miss: 11673343
+cycle count: 2157229278
+Exe_time: 2398186 us at 900000
+
+
+1000
+1024
+256*1024
+L1 Access: 117803470
+L1 Miss: 12056716
+L2 Access: 30010368
+L2 Miss: 11024182
+cycle count: 1823084676
+Exe_time: 2031406 us at 900000
