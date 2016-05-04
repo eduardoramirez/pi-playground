@@ -1,0 +1,279 @@
+Jack Wampler
+Eduardo Ramirez
+
+
+Report
+
+● How does the array size affect the cache miss rate? Why?
+● What is the relationship between the miss rate and the sizes of L1 and L2 caches?
+● How does the data size affect the execution time? Is it linear? Why or why not?
+● How do the frequency and the cache misses affect the execution time? Why?
+
+
+MAX FREQUENCY  (900MHz)
+
+10000
+1024
+8x128
+L1 Access: 15
+L1 Miss: 2
+L2 Access: 10
+L2 Miss: 2
+cycle count: 784
+Exe_time: 20 us at 900000
+
+
+10000
+1024
+8x256
+L1 Access: 43260841
+L1 Miss: 228560
+L2 Access: 683857
+L2 Miss: 38513
+cycle count: 125254592
+Exe_time: 139211 us at 900000
+
+
+10000
+1024
+8x512
+L1 Access: 30733936
+L1 Miss: 16439
+L2 Access: 107736
+L2 Miss: 8434
+cycle count: 66309046
+Exe_time: 73705 us at 900000
+
+
+10000
+1024
+8x1024
+L1 Access: 31195239
+L1 Miss: 2720051
+L2 Access: 5525032
+L2 Miss: 8341
+cycle count: 96888000
+Exe_time: 107685 us at 900000
+
+
+10000
+1024
+64x1024
+L1 Access: 32589846
+L1 Miss: 9570195
+L2 Access: 19408255
+L2 Miss: 18791
+cycle count: 214480987
+Exe_time: 238348 us at 900000
+
+
+10000
+1024
+256X1024
+L1 Access: 73487120
+L1 Miss: 10841534
+L2 Access: 24041433
+L2 Miss: 6492614
+cycle count: 1909372976
+Exe_time: 2121555 us at 900000
+
+
+10000
+1024
+512x1024
+L1 Access: 318244445
+L1 Miss: 15237652
+L2 Access: 36559978
+L2 Miss: 9700207
+cycle count: 3695773172
+Exe_time: 4106437 us at 900000
+
+
+10000
+1024
+1024x1024
+L1 Access: 103658013
+L1 Miss: 11436267
+L2 Access: 25496969
+L2 Miss: 9892478
+cycle count: 2885997578
+Exe_time: 3206692 us at 900000
+
+
+10000
+1024
+256x2048
+L1 Access: 69897886
+L1 Miss: 10779486
+L2 Access: 23682248
+L2 Miss: 8653965
+cycle count: 2454853363
+Exe_time: 2727647 us at 900000
+
+
+10000
+1024
+512x2048
+L1 Access: 49030963
+L1 Miss: 10401898
+L2 Access: 22533132
+L2 Miss: 9345691
+cycle count: 2554671821
+Exe_time: 2838556 us at 900000
+
+
+10000
+1024
+1024x2048
+L1 Access: 301324161
+L1 Miss: 15181981
+L2 Access: 36556486
+L2 Miss: 10775292
+cycle count: 3899459678
+Exe_time: 4332754 us at 900000
+
+
+10000
+1024
+2048x2048
+L1 Access: 213056192
+L1 Miss: 13541838
+L2 Access: 32073702
+L2 Miss: 10712605
+cycle count: 3517623064
+Exe_time: 3908494 us at 900000
+
+
+
+MIN FREQUENCY  (600MHz)
+
+10000
+1024
+8x128
+L1 Access: 15
+L1 Miss: 0
+L2 Access: 6
+L2 Miss: 2
+cycle count: 544
+Exe_time: 24 us at 600000
+
+
+10000
+1024
+8x256
+L1 Access: 31070028
+L1 Miss: 27838
+L2 Access: 199411
+L2 Miss: 6753
+cycle count: 67233784
+Exe_time: 112094 us at 600000
+
+
+10000
+1024
+8x512
+L1 Access: 45095165
+L1 Miss: 267927
+L2 Access: 1004549
+L2 Miss: 87819
+cycle count: 139140474
+Exe_time: 231947 us at 600000
+
+
+10000
+1024
+8x1024
+L1 Access: 40756543
+L1 Miss: 3055137
+L2 Access: 6379013
+L2 Miss: 136099
+cycle count: 156169442
+Exe_time: 260331 us at 600000
+
+
+10000
+1024
+64x1024
+L1 Access: 31239414
+L1 Miss: 33913
+L2 Access: 192763
+L2 Miss: 8288
+cycle count: 68065190
+Exe_time: 113482 us at 600000
+
+
+10000
+1024
+256x1024
+L1 Access: 317208408
+L1 Miss: 15365182
+L2 Access: 40169354
+L2 Miss: 8440873
+cycle count: 2784678498
+Exe_time: 4641160 us at 600000
+
+
+10000
+1024
+512x1024
+L1 Access: 162019516
+L1 Miss: 12377543
+L2 Access: 30005296
+L2 Miss: 9386210
+cycle count: 2339936274
+Exe_time: 3899926 us at 600000
+
+
+10000
+1024
+1024x1024
+L1 Access: 49675875
+L1 Miss: 10393752
+L2 Access: 22888270
+L2 Miss: 8326724
+cycle count: 1702415634
+Exe_time: 2837396 us at 600000
+
+
+10000
+1024
+256x2048
+L1 Access: 184250298
+L1 Miss: 13019081
+L2 Access: 34565716
+L2 Miss: 9743087
+cycle count: 2515901320
+Exe_time: 4193198 us at 600000
+
+
+10000
+1024
+512x2048
+L1 Access: 365499929
+L1 Miss: 16680598
+L2 Access: 48213017
+L2 Miss: 12585876
+cycle count: 3749610892
+Exe_time: 6249375 us at 600000
+
+
+10000
+1024
+1024x2048
+L1 Access: 199106402
+L1 Miss: 13469890
+L2 Access: 36329486
+L2 Miss: 11347465
+cycle count: 2847172970
+Exe_time: 4745318 us at 600000
+
+
+10000
+1024
+2048x2048
+L1 Access: 159158471
+L1 Miss: 12953718
+L2 Access: 35217951
+L2 Miss: 11566276
+cycle count: 2731938372
+Exe_time: 4553261 us at 600000
