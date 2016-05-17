@@ -72,7 +72,7 @@ void body_button(SharedVariable* sv) {
 void body_temp(SharedVariable* sv) {
     int x = digitalRead(PIN_TEMP);
 
-    if (  sv->active ){
+    if (  sv->active && !sv->track && !sv->shock){
         sv->temp = x;
     }
     else
@@ -82,7 +82,7 @@ void body_temp(SharedVariable* sv) {
 void body_track(SharedVariable* sv) {
     int x = digitalRead(PIN_TRACK);
 
-    if (sv->active) { 
+    if (sv->active && !sv->shock) { 
 
         if (!x) {
             //printf("TRACKING MODE ENABLED\n");
@@ -96,7 +96,7 @@ void body_track(SharedVariable* sv) {
 void body_shock(SharedVariable* sv) {
     int x = digitalRead(PIN_SHOCK);
 
-    if (sv->active) { 
+    if (sv->active && !sv->track) { 
         //printf("Shock: %d\n",x);
         if (!x)
             sv->shock = 1;
