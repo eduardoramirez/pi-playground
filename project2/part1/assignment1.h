@@ -44,7 +44,6 @@ typedef struct shared_variable {
     int temp;
     int shock;
     int track;
-    long long last_run[8];
 } SharedVariable;
 
 

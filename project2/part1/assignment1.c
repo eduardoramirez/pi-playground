@@ -14,10 +14,6 @@ void init_shared_variable(SharedVariable* sv) {
     sv->temp = 0;
     sv->shock = 0;
     sv->track = 0;
-    int i=0;
-    for (i=0;i<8;i++){
-        sv->last_run[i] = 0;
-    }
 }
 
 void init_sensors(SharedVariable* sv) {

@@ -1,4 +1,4 @@
 sudo insmod pmuon.ko
-sudo ./memmeasure >> report2.txt
+sudo ./memmeasure 
 sudo rmmod pmuon.ko
 dmesg | tail -2

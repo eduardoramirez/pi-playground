@@ -1,0 +1,2 @@
+MIN frequency change test: 600000 == 600000
+MAX frequency change test: 900000 == 900000
